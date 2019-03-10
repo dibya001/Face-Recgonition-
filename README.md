@@ -20,9 +20,8 @@ techniques instead of "Deep" Neural Nets in such cases. <br/>
 <br/>
 ConvNets performed better than the traditional feed forward neural network as its an image data so shape of the data,<br/>
 location invariance are preseved by the ConvNets<br/>
-
 <br/>
-# Few Important Points<br/>
+#  Few Important Points <br/>
  1- Image normalization is a must; Otherwise your neural networks wont learn. I was having the same issue initially😊<br/>
     best way to normalize should be x-mean(x)/std(x) ; you can also use min-max normalization<br/>
  2- Before applying convnet, its better to resize the images into a squared size image<br/>
